@@ -3,7 +3,7 @@ const path = require('path');
 
 const basePath = path.resolve('');
 const filepath = `${basePath}/node_modules/material-design-icons/iconfont/MaterialIcons-Regular.ijmap`;
-const buildPath = `${basePath}/built/material-icon-classes.css`;
+const buildPath = `${basePath}/built/material-icons-classes.css`;
 
 /** parse the ijmap and convert each icon object into a css class alias */
 function handleFileContents(data) {
