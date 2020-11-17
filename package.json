@@ -1,0 +1,22 @@
+{
+  "name": "material-icons-classes",
+  "version": "1.0.0",
+  "description": "CSS class aliases for the material-design-icons package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "node index.js"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "https://github.com/thomas-o-chan",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "material-design-icons": "^3.0.1"
+  },
+  "devDependencies": {
+    "node": "^14.15.1"
+  }
+}
